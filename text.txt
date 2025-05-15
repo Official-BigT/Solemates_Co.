@@ -1,0 +1,38 @@
+🟢 Design Choices for SoleMates – Unisex Shoe Store
+🖼️ 1. Visual Identity & Branding
+
+Chose the name SoleMates to reflect a trendy, approachable shoe brand.
+
+Used a clean, bold font (Ribeye) for personality and uniqueness.
+
+Added a store icon from Boxicons to enhance brand imagery.
+
+🎨 2. Color Scheme
+
+A cyan-blue palette (bg-cyan-400, bg-cyan-600) was chosen to represent freshness and energy.
+
+Balanced with white and dark tones for contrast and readability.
+
+📐3.  Layout Structure
+
+Followed a clean, three-section layout: Header, Product Grid, Footer.
+
+Used Tailwind CSS to apply a responsive grid system that adapts from mobile to large screens without extra CSS.
+
+🧱 4. Component Design
+
+Product cards are modular and reusable, each with an image, title, description, and button.
+
+Used utility-first classes in Tailwind for fast, consistent styling across elements.
+
+📱5.  Mobile-First & Responsive
+
+Built with mobile-first approach, then scaled up using Tailwind's responsive utilities (sm:, md:, lg:).
+
+Ensured text resizing, grid reflow, and spacing adapt fluidly on all viewports.
+
+📤6. CTA & Navigation
+
+Navigation is minimal and clear, linking to core sections: Shop, About, Contact.
+
+Buttons are clearly styled with hover effects to encourage interaction and guide users toward action.
